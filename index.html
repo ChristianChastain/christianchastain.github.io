@@ -1,9 +1,117 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio</title>
 
+</head>
 <body>
-  <h1>Christian Chastain</h1>
-  <p>This is fine..</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+<canvas id="matrix"></canvas>
+<div class="overlay"></div>
 
+<header>
+    <div class="logo">&lt;/YOUR_NAME&gt;</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="terminal-card">
+            <div class="terminal-top">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="terminal-content">
+                <div class="prompt">christian@portfolio:~$ load_profile</div>
+                <h1>Christian Chastain</h1>
+                <div class="typing"><span id="typed-text"></span><span class="cursor">█</span></div>
+                <p>
+                    I am a software engineering student and IT professional building clean,
+                    practical applications with a focus on problem solving, supportability,
+                    and real-world user needs.
+                </p>
+                <div class="buttons">
+                    <a class="button" href="#projects">View Projects</a>
+                    <a class="button secondary" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">// About Me</h2>
+        <div class="contact-box">
+            <p>
+                Hi there, my name is Christian! Army veteran, husband, father, nerd, I could go on and on.
+                I enjoy turning technical problems into simple, working solutions. My background combines
+                hands-on IT experience with software engineering coursework, giving me a strong foundation
+                in troubleshooting, development, and communicating technical ideas clearly. Since I was a kid I enjoy building
+                things, especially on the computer. If you know what Starcraft is my hobby at the time was
+                building maps for hours and hours. Fast-forward to now, I still can do that but just with a more practical approach
+                to the real world (I still love making games by the way). I still have a lot to learn but, I hope this portfolio helps showcase
+                what you can expect from me.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">// Projects</h2>
+        <div class="grid">
+            <article class="card">
+                <h3>A live website I manage</h3>
+                <p>This right here is the local card shop I update on a regular basis, helping keeping customers informed
+                of new events, and what to expect from the menu</p>
+                <a href="https://sipandgame.com" target="_blank">View The Site →</a>
+            </article>
+
+            <article class="card">
+                <h3>Project Two</h3>
+                <p>A short description of the project, the problem it solved, and what you learned.</p>
+                <a href="#">View Project →</a>
+            </article>
+
+            <article class="card">
+                <h3>Project Three</h3>
+                <p>A short description of another application, school project, or personal build.</p>
+                <a href="#">View Project →</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">// Skills</h2>
+        <div class="skills">
+            <span class="skill">Java</span>
+            <span class="skill">Spring Boot</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">Angular</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Git</span>
+            <span class="skill">Troubleshooting</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">// Contact</h2>
+        <div class="contact-box">
+            <p>Email: <a href="mailto:chastain_christian@hotmail.com">chastain_christian@hotmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/ChristianChastain" target="_blank">github.com/ChristianChastain</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/christian-chastain-/" target="_blank">linkedin.com/in/christian-chastain</a></p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    Built with HTML, CSS, JavaScript, and a little green code rain.
+</footer>
+</body>
 </html>
