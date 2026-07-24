@@ -42,9 +42,9 @@
 });
 
     const phrases = [
-    "Software Engineering Student",
+    "Software Engineer",
     "IT Professional",
-    "Application Developer in Progress",
+    "Application Developer",
     "Problem Solver"
     ];
 
